@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2020-04-14T16:53:00.359Z" agent="5.0 (Macintosh)" etag="tHtE5wXVhSIy0WSn69dt" version="12.9.12" type="github" pages="2">
-  <diagram id="TFyXDV-cg0tM3V66A1fj" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2020-04-15T22:35:25.514Z" agent="5.0 (Macintosh)" etag="KXdRKZrw3xn6XWFtyFEX" version="12.9.12" type="github" pages="3">
+  <diagram id="TFyXDV-cg0tM3V66A1fj" name="IAC">
     <mxGraphModel dx="946" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -179,7 +179,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="ruKodaS1hW5FslekkdMw" name="Page-2">
+  <diagram id="ruKodaS1hW5FslekkdMw" name="Puppet - AWS">
     <mxGraphModel dx="946" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="vHgNM0XFdGwPTJdBXIeD-0" />
@@ -213,6 +213,45 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sIL1OkYaan-vigZlNCsB-5" value="&lt;u&gt;&lt;i&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Puppet - Infrastructure Automation + Configuration Management&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="vHgNM0XFdGwPTJdBXIeD-1">
+          <mxGeometry x="130" y="40" width="680" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MrDQUS5VcGgYU1jrwUnb" name="Puppet - Ec2">
+    <mxGraphModel dx="946" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="gyEn4x_eUqlkjrv6wbom-0" />
+        <mxCell id="gyEn4x_eUqlkjrv6wbom-1" parent="gyEn4x_eUqlkjrv6wbom-0" />
+        <mxCell id="dPkSFoxrA3zLCOiNibIG-0" value="AWS Cloud" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="gyEn4x_eUqlkjrv6wbom-1">
+          <mxGeometry x="330" y="50" width="360" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkSFoxrA3zLCOiNibIG-1" value="Puppet " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="gyEn4x_eUqlkjrv6wbom-1">
+          <mxGeometry x="140" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkSFoxrA3zLCOiNibIG-2" value="" style="endArrow=classic;html=1;exitX=0.558;exitY=0.033;exitDx=0;exitDy=0;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="gyEn4x_eUqlkjrv6wbom-1" source="dPkSFoxrA3zLCOiNibIG-1" target="dPkSFoxrA3zLCOiNibIG-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dPkSFoxrA3zLCOiNibIG-3" value="AWS access keys + secret keys" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="dPkSFoxrA3zLCOiNibIG-2">
+          <mxGeometry x="-0.4049" y="1" relative="1" as="geometry">
+            <mxPoint x="-11.85" y="-15.18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dPkSFoxrA3zLCOiNibIG-4" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.31;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gyEn4x_eUqlkjrv6wbom-1" source="dPkSFoxrA3zLCOiNibIG-1" target="dPkSFoxrA3zLCOiNibIG-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dPkSFoxrA3zLCOiNibIG-5" value="&lt;font style=&quot;font-size: 13px&quot;&gt;AWS sdk gems&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dPkSFoxrA3zLCOiNibIG-4">
+          <mxGeometry x="-0.4448" y="-1" relative="1" as="geometry">
+            <mxPoint x="28.78" y="-20.7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dPkSFoxrA3zLCOiNibIG-6" value="&lt;u&gt;&lt;i&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Puppet - Infrastructure Automation + Configuration Management&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="gyEn4x_eUqlkjrv6wbom-1">
           <mxGeometry x="130" y="40" width="680" height="20" as="geometry" />
         </mxCell>
       </root>
