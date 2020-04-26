@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-26T22:51:15.120Z" agent="5.0 (Macintosh)" etag="ValIkvm55J3B7Hj9md1g" version="13.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-04-26T22:52:31.314Z" agent="5.0 (Macintosh)" etag="8SOWZFUHoexGLEz_FPIH" version="13.0.1" type="github" pages="4">
   <diagram id="TFyXDV-cg0tM3V66A1fj" name="IAC">
     <mxGraphModel dx="946" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -252,7 +252,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VKihHpQgRH6S5C-WkGqN-8" value="&lt;u&gt;&lt;i&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Ansible - Infrastructure Automation + Configuration Management&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="VKihHpQgRH6S5C-WkGqN-1">
-          <mxGeometry x="130" y="21" width="680" height="20" as="geometry" />
+          <mxGeometry x="130" y="40" width="680" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
